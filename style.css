@@ -1,0 +1,89 @@
+nav, body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#dark-mode-toggle button{
+    font-weight:bold;
+    float: right;
+    margin: 1rem;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#dark-mode-toggle button:hover{
+    background-color: grey;
+}
+
+#welcome-message h1,
+#welcome-message h3{
+    text-align: center;
+}
+
+#welcome-message h1{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#welcome-message h3{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#welcome-message{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+#submission{
+    text-align: center;
+}
+
+#submission form textarea{
+    margin-top: 50px;;
+    width: 100%;
+    max-width: 820px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 8px;
+}
+
+#submission button{
+    margin: 0 auto;
+    font-weight:bold;
+    padding: 10px;
+}
+
+#submission button:hover{
+    background-color: grey;
+}
+
+body.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode #welcome-message {
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode #dark-mode-toggle button {
+    background-color: black;
+    color: white;
+}
+
+
+body.dark-mode #dark-mode-toggle button:hover {
+    background-color: white;
+} 
+  
